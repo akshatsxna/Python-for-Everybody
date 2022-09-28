@@ -1,0 +1,67 @@
+chocolate = 'Melody'
+letter = chocolate[4]
+print(letter)
+
+chocolate='Melody'
+for letter in chocolate:
+  print(letter)
+
+chocolate = 'Melody'
+print(len(chocolate)
+
+chocolate='Melody'
+index=0
+while index<len(chocolate):
+  letter= chocolate[index]
+  print(index,letter)
+  index=index+1
+
+chocolate='Kacha Mango Bite'
+count=0
+for letter in chocolate:
+  if letter=='a':
+    count=count+1
+print(count)
+
+x='PythonisaProgramminglanguage'
+print(x[3:7])
+
+friend= ['Ayush', 'Arup', 'Krashank', 'Deep']
+for friends in friend:
+  print("Happy Independence Day", friends)
+print('Done')
+
+total=0
+count=0
+while True:
+  x=input("Enter Number:")
+  if x=='Done': break
+  value=float(x)
+  total=total+value
+  count=count+1
+average=total/count
+print("Average of the number:",average)
+
+book=dict()
+book['Flemingo']=10
+book['william']= 11
+book['A Common Man Succes']=12
+print(book)
+
+sentence= 'My College Registration ID:2019AAIE1111004, My dept.:AI, College area pin:440016'
+x= sentence.find(':')
+print(x)
+
+import urllib.request, urllib.parse, urllib.error
+x=urllib.request.urlopen('https://data.pr4e.org/authors.txt')
+for line in x:
+  print(line.decode().strip())
+
+import urllib.request, urllib.parse, urllib.error
+x=urllib.request.urlopen('https://data.pr4e.org/authors.txt')
+count=dict()
+for line in x:
+  words=line.decode().split()
+  for word in words:
+    count[word]=count.get(word,0)+1
+print(count)

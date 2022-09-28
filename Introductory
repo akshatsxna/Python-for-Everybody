@@ -1,0 +1,80 @@
+print("This is a sample program")
+
+a=5
+a=a+2
+print(a)
+
+(While Loop)
+x=8
+while x>0:
+  x=x-1
+  print(x)
+print("Endoff")
+
+## Operations
+
+a=5
+b=8
+c=a*b
+print(c)
+
+print("Welcome to Policy premium System")
+a= int(input("Total Premium Amount (in Rupees):"))
+b= int(input("Duration of premium (in year):"))
+c= a//b
+print("Your yearly premium amount is",c)
+print("Your monthly premium amount is",c//12)
+
+[%-remainder]
+x=25
+y=x%4
+print(y)
+
+x=4+6**2/3*5
+print(x)
+type(x)
+
+
+a= int(input("Enter your Yearly Salary:"))
+if a<500000:
+  print("You are not required to pay tax")
+else:
+  print("You need to pay tax as per the rule")
+
+a=int(input('Enter the floor:'))
+b=a+1
+print("you are in Floor",b)
+
+x= 'Myself' +' '+ 'Prateek Dutta' +' '+ 'Graduate Data Science Trainee' + ' '+ 'at Konverge.AI Pvt. Ltd.'
+print(x)
+
+# Define Function [def():]
+
+def alpha():
+  print("Prateek")
+  print("Dutta")
+alpha()
+print("Hello!")
+alpha()
+
+
+def greet(lang):
+  if lang=='es':
+    print("Hola")
+  elif lang=='fr':
+    print("banjour")
+  else:
+    print("Hello")
+greet("en")
+
+def greet():
+  return"Hello"
+
+print(greet(),'Prateek')
+print(greet(),'Ayush')
+
+def add(a,b):
+  addition=a+b
+  return addition
+x= add(6,4)
+print(x)
